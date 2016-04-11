@@ -32,7 +32,7 @@ X = [ones(m, 1) X];
 
 tmp = X * all_theta';
 
-p = max(tmp, [], 2);
+[trash, p] = max(tmp, [], 2);
 
 
 
